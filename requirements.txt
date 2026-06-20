@@ -1,0 +1,8 @@
+# Runtime: the engine is intentionally light (no compiled TDA library).
+numpy>=1.24
+scipy>=1.10
+
+# Test-only oracles (validation, not runtime dependencies):
+#   gudhi        -- independent persistent-homology oracle
+#   statsmodels  -- independent GLS oracle for meta-regression
+# Install with:  pip install gudhi statsmodels pytest

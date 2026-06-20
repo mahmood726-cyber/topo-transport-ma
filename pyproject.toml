@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topotransport"
+version = "0.1.0"
+description = "Topological transportability for meta-analysis: persistent homology of the effect-modifier space as a positivity certificate for transported effects."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Mahmood Ahmad" }]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+test = ["pytest", "gudhi", "statsmodels"]
+
+[tool.setuptools]
+packages = ["topotransport"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
