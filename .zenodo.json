@@ -1,0 +1,24 @@
+{
+  "title": "topo-transport-ma: Topological Transportability for Meta-Analysis",
+  "description": "A geometry-aware positivity certificate for transported meta-analytic effects. Persistent homology of the effect-modifier space (H0 = latent subpopulations; H1 = uncovered holes) is used to grade whether a target population lies in the support of the evidence base, catching transport gaps a convex-hull overlap check misses. Includes a from-scratch persistent-homology engine (validated against GUDHI to machine precision), a REML meta-regression transport estimator (reproduces metafor on the BCG dataset to four decimals; matches statsmodels GLS to 1e-6), collapsibility guards, and a self-auditing offline dashboard.",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Ahmad, Mahmood",
+      "orcid": "0000-0001-9107-3704",
+      "affiliation": "Tahir Heart Institute, Rabwah, Pakistan"
+    }
+  ],
+  "keywords": [
+    "meta-analysis",
+    "transportability",
+    "generalizability",
+    "persistent homology",
+    "topological data analysis",
+    "positivity",
+    "causal inference",
+    "evidence synthesis"
+  ],
+  "access_right": "open"
+}
